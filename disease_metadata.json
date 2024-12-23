@@ -1,0 +1,578 @@
+{
+    "Malaria": {
+        "Description": "A mosquito-borne infectious disease caused by Plasmodium parasites.",
+        "Symptoms": "Fever, headache, chills, vomiting, fatigue",
+        "Causes": "Plasmodium parasites transmitted through the bites of infected female Anopheles Mosquitoes",
+        "Prevention": "Insecticide-treated bed nets, indoor residual spraying, antimalarial drugs",
+        "Treatment": "Antimalarial drugs (e.g. Artemisinin-based combination therapy)",
+        "Illness_Type": "Infection"
+    },
+    "Typhoid Fever": {
+        "Description": "A bacterial infection spread through contaminated food or water.",
+        "Symptoms": "Prolonged fever, fatigue, headache, nausea, abdominal pain, constipation or diarrhea",
+        "Causes": "Infection by Salmonella Typhi bacteria through contaminated food or water",
+        "Prevention": "Vaccination, safe drinking water, proper sanitation, good hygiene practices",
+        "Treatment": "Antibiotics(e.g., ciprofloxacin, azithromycin), hydration theraphy",
+        "Illness_Type": "Infection"
+    },
+    "Common Cold(Rhinovirus)": {
+        "Description": "A viral infection affecting the upper respiratory tract, commonly known as a cold.",
+        "Symptoms": "Runny nose, sore throat, coughing, sneezing, headaches, body aches",
+        "Causes": "Rhinoviruses(most common cause), other respiratory viruses",
+        "Prevention": "Wash hands often, avoid close contact with sick individuals",
+        "Treatment": "Rest, hydration, over-the-counter medications(pain relievers, decongestants, cough syrups)",
+        "Illness_Type": "Respiratory"
+    },
+    "Influenza(Flu)": {
+        "Description": "A viral respiratory illness, also known as the flu.",
+        "Symptoms": "Fever, cough, sore throat, muscle pain, headache, fatigue, sometimes vomiting and diarrhea",
+        "Causes": "Influenza viruses(primarily type A and B)",
+        "Prevention": "Annual vaccination, hand hygiene, avoiding close contact with infected individuals",
+        "Treatment": "Rest, hydration, antiviral drugs(e.g., oseltamivir), over-the-counter symptom relief medications",
+        "Illness_Type": "Respiratory"
+    },
+    "Acute Bronchitis": {
+        "Description": "Inflammation of the bronchial tubes, often due to infection.",
+        "Symptoms": "Cough(often with mucus), wheezing, shortness of breath, chest discomfort",
+        "Causes": "Usually caused by viral infections(e.g., cold viruses), sometimes by bacteria",
+        "Prevention": "Good hygiene practices, avoiding tobacco smoke, staying away from sick individuals",
+        "Treatment": "Rest, hydration, over-the-counter medication for cough and pain",
+        "Illness_Type": "Respiratory"
+    },
+    "Chronic Bronchitis": {
+        "Description": "Long-term inflammation of the bronchi, often linked to smoking.",
+        "Symptoms": "Persistent cough with mucus, wheezing, shortness of breath",
+        "Causes": "Long-term exposure to irritants(e.g., tobacco smoke, air pollution)",
+        "Prevention": "Avoiding tobacco smoke, reducing exposure to pollutants, vaccination against respiratory infections",
+        "Treatment": "Bronchodilators, steriods, pulmonary rehabilitation, oxygen therapy in severe cases",
+        "Illness_Type": "Respiratory"
+    },
+    "Sinusitis": {
+        "Description": "Inflammation of the sinuses, often causing congestion and pain.",
+        "Symptoms": "Facial pain/pressure, nasal congestion, runny nose, loss of smell, cough, sore throat",
+        "Causes": "Viral infections(like cold or flu), bacterial infections, allergies, nasal polyps",
+        "Prevention": "Avoid colds, manage allergies, stay hydrated, use a humidifier, good nasal hygiene",
+        "Treatment": "Nasal sprays, decongestants, saline rinses, antibiotics( for bacterial sinusitis), antihistamines",
+        "Illness_Type": "Respiratory/Allergies"
+    },
+    "Pharyngitis(Sore Throat)": {
+        "Description": "Inflammation of the throat, often resulting in pain and discomfort.",
+        "Symptoms": "Sore throat, pain when swallowing, swollen tonsils, hoarseness, fever, cough",
+        "Causes": "Viral infections(common cold, flu), bacterial infections(strep throat), allergies, dry air",
+        "Prevention": "Good hand hygiene, avoiding contact with sick individuals, staying hydrated, using humidifiers",
+        "Treatment": "(Viral pharyngitis is typically treated symptomatically without antibiotics); pain relivers(e.g., ibuprofen, acetaminophen), throat lozenges, antibiotics(for bacterial infection), rest",
+        "Illness_Type": "Respiratory/Infection"
+    },
+    "Laryngitis": {
+        "Description": "Inflammation of the larynx, typically causing hoarseness.",
+        "Symptoms": "Hoarseness, loss of voice, sore throat, dry cough, throat irritation, difficulty speaking",
+        "Causes": "Viral infections(common cold, flu), overuse of voice, bacterial infections, smoking, allergies",
+        "Prevention": "Avoid excessive use of voice, stay hydrated, avoid smoking, manage allergies, good hand hygiene",
+        "Treatment": "Resting the voice, stay hydrated, humidifiers, pain relievers, antibiotics(if bacterial), corticosteriods(in severe cases)",
+        "Illness_Type": "Respiratory"
+    },
+    "Gastroenteritis(Stomach Flu)": {
+        "Description": "An intestinal infection causing diarrhea and stomach cramps.",
+        "Symptoms": "Watery diarrhea, abdominal cramps, nausea, vomiting, low-grade fever, muscle aches",
+        "Causes": "Viral Infections(Norovirus, Rotavirus, Astrovirus, Adenovirus), contaminated food or water",
+        "Prevention": "Good hand hygiene, drinking clean water, proper food preparation, avoiding contaminated food",
+        "Treatment": "Rehydration(oral rehydration salts, IV fluids if severe), anti-nausea medications, metronidazole(for bacterial cases), loperamide(for diarrhea control)",
+        "Illness_Type": "Gastrointestinal"
+    },
+    "Tonsilitis": {
+        "Description": "Infection or inflammation of the tonsils.",
+        "Symptoms": "Sore throat, difficulty swallowing, swollen tonsils, fever, bad breath, swollen lymph nodes",
+        "Causes": "Viral or bacterial infections (commonly Group A Streptococcus)",
+        "Prevention": "Good hygiene, avoiding contact with infected individuals, hand washing",
+        "Treatment": "Rest, fluids, pain relievers (ibuprofen or acetaminophen), antibiotics (e.g., amoxicillin for bacterial tonsillitis)",
+        "Illness_Type": "Infection "
+    },
+    "Food Poisining": {
+        "Description": "An illness caused by ingesting contaminated food, leading to gastrointestinal distress.",
+        "Symptoms": "Nausea, vomiting, diarrhea, abdominal cramps, fever, weakness, dehydration",
+        "Causes": "Contaminated food or water (bacteria, viruses, parasites, toxins)",
+        "Prevention": "Proper food handling, cooking food to the correct temperature, hand washing, avoiding raw/contaminated food",
+        "Treatment": "Rest, hydration, oral rehydration solutions, IV fluids (in severe cases), antibiotics (for bacterial infections), anti-diarrheal medications (for some cases)",
+        "Illness_Type": "Infection "
+    },
+    "Irritable Bowel Syndrome": {
+        "Description": "A chronic condition that affects the large intestine, causing pain and irregular bowel movements.",
+        "Symptoms": "Abdominal pain, cramping, bloating, gas, diarrhea or constipation, changes in bowel habits",
+        "Causes": "Unknown, but can be related to abnormal muscle contractions in the intestines, nervous system dysfunction, inflammation in the intestines, severe infection, stress",
+        "Prevention": "Manage stress, avoid trigger foods, eat high-fiber foods, regular exercise, probiotics, small meals",
+        "Treatment": "Dietary changes, stress management, fiber supplements, laxatives (for constipation), anti-diarrheal medications, antispasmodic medications, antidepressants",
+        "Illness_Type": "Gastrointestinal "
+    },
+    "Lactose Intolerance": {
+        "Description": "An inability to digest lactose, a sugar found in milk and dairy products.",
+        "Symptoms": "Diarrhea, nausea, abdominal cramps, bloating, gas after consuming dairy products",
+        "Causes": "Lack of lactase enzyme in the small intestine, leading to difficulty digesting lactose (sugar in milk and dairy products)",
+        "Prevention": "Avoid or limit dairy products, use lactose-free dairy products, take lactase enzyme supplements",
+        "Treatment": "Dietary adjustments (lactose-free or low-lactose foods), lactase enzyme supplements, calcium and vitamin D supplements",
+        "Illness_Type": "Gastrointestinal "
+    },
+    "Constipation": {
+        "Description": "Difficulty in passing stools, often due to a lack of fiber in the diet.",
+        "Symptoms": "Infrequent bowel movements (less than three times a week), difficulty passing stools, hard or dry stools, abdominal discomfort, bloating",
+        "Causes": "Lack of fiber in the diet, dehydration, lack of physical activity, certain medications, ignoring the urge to pass stool, changes in routine, stress",
+        "Prevention": "Eat a high-fiber diet (fruits, vegetables, whole grains), drink plenty of water, exercise regularly, establish a regular bathroom routine",
+        "Treatment": "Increased dietary fiber, stool softeners, laxatives (e.g., lactulose), increased water intake, regular exercise",
+        "Illness_Type": "Gastrointestinal "
+    },
+    "Diarrhea": {
+        "Description": "Frequent, loose, or watery stools, usually due to infection or irritation.",
+        "Symptoms": "Loose, watery stools, frequent bowel movements, abdominal cramps, bloating, nausea, urgency to have a bowel movement, dehydration",
+        "Causes": "Viral infections (e.g., rotavirus, norovirus), bacterial infections (e.g., E. coli, salmonella), contaminated water or food, medications (e.g., antibiotics), intestinal diseases (IBS, IBD)",
+        "Prevention": "Safe drinking water, good sanitation, proper hygiene (handwashing), vaccination (e.g., rotavirus vaccine), food safety practices",
+        "Treatment": "Oral rehydration solution (ORS), zinc supplements, antidiarrheal medications (e.g., loperamide), increased fluid intake, continued feeding for children",
+        "Illness_Type": "Infection/Gastrointestinal "
+    },
+    "Acid Reflux": {
+        "Description": "A digestive disorder where stomach acid flows back into the esophagus.",
+        "Symptoms": "Heartburn, regurgitation of food or sour liquid, difficulty swallowing, chest pain, sensation of lump in throat, chronic cough, sore throat, hoarseness",
+        "Causes": "Weakening of the lower esophageal sphincter (LES), obesity, pregnancy, smoking, certain foods and drinks (spicy, fatty foods, alcohol, coffee), certain medications",
+        "Prevention": "Maintain healthy weight, avoid trigger foods, stop smoking, eat smaller meals, avoid lying down after eating, raise the head of the bed",
+        "Treatment": "Lifestyle changes (diet modification, weight loss), antacids, H2 blockers (e.g., famotidine), proton pump inhibitors (PPIs, e.g., omeprazole)",
+        "Illness_Type": "Gastrointestinal "
+    },
+    "Peptic Ulcers": {
+        "Description": "Sores that develop on the lining of the stomach or small intestine.",
+        "Symptoms": "Burning stomach pain, bloating, intolerance to fatty foods, heartburn, nausea, vomiting, weight loss, dark or black stools, vomiting blood",
+        "Causes": "Helicobacter pylori infection, prolonged use of NSAIDs (e.g., aspirin, ibuprofen), smoking, excessive alcohol, stress, spicy foods",
+        "Prevention": "Avoid long-term use of NSAIDs, quit smoking, limit alcohol, manage stress, eat a healthy diet",
+        "Treatment": "Proton pump inhibitors (e.g., omeprazole), antibiotics for H. pylori (clarithromycin, amoxicillin), antacids, lifestyle changes (diet modification, quitting smoking)",
+        "Illness_Type": "Gastrointestinal "
+    },
+    "Hemorrhoids": {
+        "Description": "Swollen veins in the rectum or anus, causing pain and bleeding.",
+        "Symptoms": "Pain or discomfort during bowel movements, itching or irritation in the anal region, swelling around the anus, bleeding during bowel movements, protrusion of tissue",
+        "Causes": "Straining during bowel movements, chronic constipation or diarrhea, sitting for long periods, obesity, pregnancy, anal intercourse, age-related tissue weakening",
+        "Prevention": "High-fiber diet, staying hydrated, regular exercise, avoiding prolonged sitting, practicing good bowel habits",
+        "Treatment": "Over-the-counter creams (e.g., hydrocortisone), topical analgesics, sitz baths, fiber supplements, in severe cases, surgical options such as hemorrhoidectomy or banding",
+        "Illness_Type": "Gastrointestinal "
+    },
+    "Dermatitis(Eczema)": {
+        "Description": "A chronic skin condition causing itchy, inflamed skin.",
+        "Symptoms": "Red, inflamed skin, itching, dryness, cracking, scaling, thickened skin, blisters",
+        "Causes": "Allergens (e.g., pollen, pet dander), irritants (e.g., soaps, detergents), genetic factors, stress, certain medical conditions",
+        "Prevention": "Avoid known triggers, use mild soaps, moisturize regularly, wear protective clothing, practice stress management",
+        "Treatment": "Topical corticosteroids, antihistamines for itching, moisturizers, calcineurin inhibitors, phototherapy in severe cases",
+        "Illness_Type": "Dermatological "
+    },
+    "Psoriasis": {
+        "Description": "A skin disease causing red, scaly patches on the skin.",
+        "Symptoms": "Red patches of skin covered with thick, silvery scales, dry and cracked skin that may bleed, itching and burning sensations, thickened or pitted nails, swollen joints",
+        "Causes": "Genetic factors, immune system dysfunction, environmental triggers (stress, infections, skin injuries), and certain medications",
+        "Prevention": "Avoid known triggers, maintain a healthy lifestyle, manage stress, use moisturizers regularly",
+        "Treatment": "Topical treatments (corticosteroids, vitamin D analogs), phototherapy, systemic medications (e.g., methotrexate, biologics) for severe cases",
+        "Illness_Type": "Dermatological"
+    },
+    "Acne": {
+        "Description": "A skin condition where hair follicles become clogged, causing pimples.",
+        "Symptoms": "Pimples, whiteheads, blackheads, cysts, nodules, and red, swollen, or painful skin",
+        "Causes": "Excess oil (sebum) production, clogged hair follicles, bacteria, hormonal changes (e.g., puberty), certain medications, diet, stress",
+        "Prevention": "Clean skin regularly, avoid oily skincare products, maintain a healthy diet, manage stress, avoid picking or squeezing pimples",
+        "Treatment": "Topical treatments (retinoids, benzoyl peroxide, salicylic acid), antibiotics (oral or topical), hormonal treatments (e.g., birth control), isotretinoin for severe cases",
+        "Illness_Type": "Dermatological "
+    },
+    "Fungal Infection": {
+        "Description": "An infection caused by fungi, often affecting the skin, nails, or lungs.",
+        "Symptoms": "Skin rashes, itching, redness, scaling, blisters, cracking skin, nail discoloration, respiratory issues, and fatigue (depending on the type of fungal infection)",
+        "Causes": "Exposure to fungi (e.g., Candida, Aspergillus, Cryptococcus), weakened immune system, warm and moist environments, inhalation of spores",
+        "Prevention": "Keep skin clean and dry, avoid sharing personal items, wear breathable clothing, maintain good hygiene, avoid contact with infected individuals",
+        "Treatment": "Antifungal medications (oral or topical): Fluconazole, Itraconazole, Terbinafine, Amphotericin B (for severe cases); good hygiene and keeping the affected area dry",
+        "Illness_Type": "Fungal Infection "
+    },
+    "Cold Sores(Herpes Simplex Virus)": {
+        "Description": "Painful blisters around the mouth caused by the herpes simplex virus.",
+        "Symptoms": "Tingling, itching, small fluid-filled blisters around the mouth, lips, or nose; pain and discomfort; fever in severe cases",
+        "Causes": "Herpes Simplex Virus (HSV-1, and sometimes HSV-2); usually spread through close personal contact, saliva, or shared objects like utensils",
+        "Prevention": "Avoid close contact with infected individuals, avoid sharing personal items (lip balm, utensils), use sunscreen on the lips to prevent flare-ups",
+        "Treatment": "Antiviral medications (e.g., Valacyclovir, Acyclovir); topical creams (e.g., Docosanol) to reduce duration and discomfort; stay hydrated, use cold compresses",
+        "Illness_Type": "Viral Infection"
+    },
+    "Impetigo": {
+        "Description": "A contagious skin infection often seen in children.",
+        "Symptoms": "Red sores that quickly rupture, ooze for a few days, and then form a yellowish-brown crust; mostly around the nose and mouth, and sometimes hands and feet",
+        "Causes": "Bacterial infection caused by Staphylococcus aureus or Streptococcus pyogenes; usually spread by contact with an infected person or contaminated objects",
+        "Prevention": "Good hygiene, regular hand washing, keeping wounds clean, and avoiding contact with infected individuals or shared personal items",
+        "Treatment": "Antibiotics, typically topical (Mupirocin or Fusidic Acid) for mild cases; oral antibiotics (e.g., Amoxicillin-Clavulanate, Cephalexin) for more severe cases",
+        "Illness_Type": "Bacterial Infection "
+    },
+    "Hives(Urticaria)": {
+        "Description": "A skin rash with red, itchy welts, often due to an allergic reaction.",
+        "Symptoms": "Raised, itchy welts (hives) on the skin; can appear suddenly and vary in size; may cause burning or stinging sensations; can be accompanied by angioedema (swelling)",
+        "Causes": "Allergic reactions, stress, infections, medications, certain foods, and physical factors (temperature, sunlight, pressure)",
+        "Prevention": "Identify and avoid known triggers; manage stress; maintain good hygiene",
+        "Treatment": "Antihistamines (e.g., Cetirizine, Loratadine); corticosteroids for severe cases; avoiding known triggers; cold compresses for relief",
+        "Illness_Type": "Allergic Reaction "
+    },
+    "Hay Fever": {
+        "Description": "An allergic response causing sneezing and nasal congestion.",
+        "Symptoms": "Sneezing, runny or stuffy nose, itchy eyes, mouth or throat, watery eyes, fatigue, cough, and postnasal drip",
+        "Causes": "Allergic reactions to pollen from trees, grasses, and weeds; mold spores; pet dander; dust mites; and certain foods",
+        "Prevention": "Avoid known allergens; use air conditioning; keep windows closed during pollen season; use high-efficiency particulate air (HEPA) filters; take preventive medications",
+        "Treatment": "Antihistamines (e.g., Cetirizine, Loratadine); nasal corticosteroids (e.g., Fluticasone); decongestants; allergy shots (immunotherapy)",
+        "Illness_Type": "Allergic Reaction "
+    },
+    "Allergic Rhinitis": {
+        "Description": "An allergic condition causing inflammation in the nasal passages.",
+        "Symptoms": "Sneezing, runny or stuffy nose, itchy eyes, itchy throat, postnasal drip, fatigue, coughing, and wheezing",
+        "Causes": "Allergens such as pollen, dust mites, mold, pet dander, and certain foods",
+        "Prevention": "Avoidance of known allergens, use of air conditioning, keeping windows closed during pollen season, using hypoallergenic bedding, and regular cleaning",
+        "Treatment": "Antihistamines (e.g., Cetirizine, Loratadine), nasal corticosteroids (e.g., Fluticasone), decongestants, and allergen immunotherapy (allergy shots)",
+        "Illness_Type": "Allergic Reaction "
+    },
+    "Food Allergy": {
+        "Description": "An abnormal immune response to specific foods.",
+        "Symptoms": "Hives, itching, swelling of lips or tongue, difficulty breathing, abdominal pain, nausea, vomiting, diarrhea, and anaphylaxis in severe cases",
+        "Causes": "Allergens such as peanuts, tree nuts, fish, shellfish, eggs, milk, soy, and wheat",
+        "Prevention": "Avoidance of known allergens, reading food labels, and consultation with an allergist for management and possible desensitization therapy",
+        "Treatment": "Antihistamines for mild reactions; epinephrine auto-injectors (e.g., EpiPen) for severe reactions (anaphylaxis)",
+        "Illness_Type": "Allergic Reaction "
+    },
+    "Tendinitis": {
+        "Description": "Inflammation of the tendons, often due to overuse.",
+        "Symptoms": "Pain, tenderness, and stiffness in the affected tendon, swelling, and limited range of motion in the joint near the tendon",
+        "Causes": "Overuse or repetitive motion, injury, aging, and certain medical conditions (e.g., rheumatoid arthritis)",
+        "Prevention": "Stretching and strengthening exercises, proper warm-up before activities, using ergonomic tools, and avoiding repetitive motions",
+        "Treatment": "Rest, ice application, over-the-counter pain relievers (e.g., ibuprofen, naproxen), physical therapy, corticosteroid injections, and, in severe cases, surgery",
+        "Illness_Type": "Musculoskeletal Disorder "
+    },
+    "Otitis Media(Ear Infection)": {
+        "Description": "A middle ear infection common in children.",
+        "Symptoms": "Ear pain, difficulty hearing, fluid drainage from the ear, fever, irritability in children, and balance issues",
+        "Causes": "Bacterial or viral infections, allergies, respiratory infections, and blockage of the Eustachian tube",
+        "Prevention": "Keeping vaccinations up to date, avoiding secondhand smoke exposure, practicing good hygiene, and managing allergies",
+        "Treatment": "Observation, antibiotics for bacterial infections, pain relief with acetaminophen or ibuprofen, warm compresses, and in some cases, surgical intervention (e.g., tympanostomy tubes)",
+        "Illness_Type": "Infection "
+    },
+    "Otitis Externa(Swimmer's Ear)": {
+        "Description": "An outer ear infection often due to water exposure.",
+        "Symptoms": "Ear pain, itching in the ear canal, redness inside the ear, fluid drainage, hearing loss, and swelling",
+        "Causes": "Bacterial infection from water exposure (commonly known as \u201cswimmer\u2019s ear\u201d), excessive moisture in the ear, skin conditions like eczema, or foreign object injury",
+        "Prevention": "Keep ears dry, avoid inserting objects in the ear, use earplugs when swimming, and treat skin conditions that affect the ear canal",
+        "Treatment": "Topical antibiotics (ear drops), corticosteroids to reduce inflammation, pain relief, and keeping the ear dry",
+        "Illness_Type": "Infection "
+    },
+    "Tinnitus": {
+        "Description": "Ringing or other noises in one or both ears not caused by an external sound.",
+        "Symptoms": "Ringing, buzzing, hissing, roaring, or clicking sounds in the ears that are not caused by external noise",
+        "Causes": "Exposure to loud noises, ear infections, earwax buildup, age-related hearing loss, ototoxic medications, and underlying conditions such as high blood pressure",
+        "Prevention": "Protect ears from loud noises, use ear protection, avoid prolonged exposure to high-volume environments, maintain cardiovascular health, and avoid ototoxic substances",
+        "Treatment": "No specific cure; treatments include sound therapy, hearing aids, cognitive behavioral therapy (CBT), and managing underlying conditions (e.g., earwax removal)",
+        "Illness_Type": "Ear and auditory condition"
+    },
+    "Nosebleeds(Epistaxis)": {
+        "Description": "Bleeding from the nose, often due to dry air or injury.",
+        "Symptoms": "Bleeding from one or both nostrils, which can range from light to heavy; can be sudden or frequent; may be accompanied by lightheadedness or dizziness in severe cases",
+        "Causes": "Dry air, nose picking, nasal trauma, allergies, upper respiratory infections, blood-thinning medications, hypertension, and bleeding disorders",
+        "Prevention": "Use of humidifiers, avoiding nose picking or blowing too hard, keeping nasal passages moist (e.g., with saline sprays), treating underlying conditions (e.g., allergies), and avoiding excessive use of nasal decongestants",
+        "Treatment": "Pinching the nostrils and leaning forward, applying cold compresses, and using nasal packing; if persistent, cauterization, nasal tampons, or medical evaluation may be required",
+        "Illness_Type": "Nasal/oral condition"
+    },
+    "Nasal Polyps": {
+        "Description": "Non-cancerous growths on the lining of the nasal passages or sinuses.",
+        "Symptoms": "Persistent nasal congestion, runny nose, reduced or absent sense of smell, postnasal drip, facial pain or pressure, snoring, and in severe cases, difficulty breathing",
+        "Causes": "Chronic inflammation of the nasal passages due to asthma, allergies, chronic sinus infections, or immune system responses; also linked to conditions like aspirin sensitivity and cystic fibrosis",
+        "Prevention": "Managing allergies and asthma, avoiding nasal irritants, practicing good nasal hygiene (e.g., using saline sprays), and treating infections and inflammation early",
+        "Treatment": "Corticosteroid nasal sprays (e.g., mometasone) to reduce inflammation; oral corticosteroids or surgery (polypectomy) may be required for severe or persistent cases",
+        "Illness_Type": "Nasal/oral condition"
+    },
+    "Vertigo": {
+        "Description": "A sensation of spinning or dizziness, often linked to inner ear issues.",
+        "Symptoms": "Sensation of spinning, dizziness, loss of balance, nausea, vomiting, headaches, abnormal eye movements, and difficulty walking",
+        "Causes": "Inner ear disorders (e.g., benign paroxysmal positional vertigo - BPPV, Meniere\u2019s disease, labyrinthitis), head injuries, migraines, stroke, or vestibular neuritis",
+        "Prevention": "Managing underlying conditions (e.g., ear infections, migraines), avoiding sudden head movements, and practicing balance exercises",
+        "Treatment": "Medications like meclizine for dizziness, antihistamines, or vestibular rehabilitation therapy (VRT); in severe cases, surgery may be necessary to correct inner ear issues",
+        "Illness_Type": "Neurological and vestibular disorder"
+    },
+    "Sore Throat": {
+        "Description": "Pain in the throat often caused by infection or irritation.",
+        "Symptoms": "Pain or scratchy sensation in the throat, difficulty swallowing, swollen glands in the neck or jaw, hoarse voice, and red or swollen tonsils",
+        "Causes": "Viral infections (e.g., common cold, flu, COVID-19), bacterial infections (e.g., strep throat), allergies, dry air, irritants (smoke, pollution), or gastroesophageal reflux disease (GERD)",
+        "Prevention": "Practice good hygiene (handwashing), avoid close contact with sick individuals, stay hydrated, avoid smoking, and use a humidifier in dry environments",
+        "Treatment": "Over-the-counter pain relievers (ibuprofen or acetaminophen), throat lozenges, saltwater gargles, staying hydrated; for bacterial infections, antibiotics like amoxicillin may be prescribed",
+        "Illness_Type": "Respiratory/Infection"
+    },
+    "Conjunctivitis": {
+        "Description": "Inflammation or infection of the outer membrane of the eye.",
+        "Symptoms": "Redness in the white of the eye or inner eyelid, increased tear production, itching, irritation, discharge (yellow or green), crusting of the eyelids or lashes, sensitivity to light",
+        "Causes": "Viral infections (e.g., adenovirus), bacterial infections (e.g., Staphylococcus or Streptococcus), allergies (e.g., pollen, dust mites), chemical exposure, or irritants (e.g., smoke, contact lenses)",
+        "Prevention": "Practice good hygiene (handwashing, avoiding touching eyes), avoid sharing personal items (towels, eye makeup), change pillowcases regularly, and use protective eyewear in hazardous environments",
+        "Treatment": "Viral conjunctivitis usually resolves on its own; bacterial conjunctivitis may require antibiotic eye drops or ointments; allergic conjunctivitis can be treated with antihistamine or anti-inflammatory eye drops",
+        "Illness_Type": "Infection "
+    },
+    "Styes": {
+        "Description": "A painful lump on the eyelid caused by a blocked gland.",
+        "Symptoms": "Red, swollen lump on the edge of the eyelid (often resembling a pimple), tenderness or pain in the affected area, increased tearing, sensitivity to light, a sensation of something in the eye",
+        "Causes": "Bacterial infection (usually Staphylococcus) in the oil glands at the base of the eyelashes or in the eyelid follicles",
+        "Prevention": "Maintain good eye hygiene (clean eyelids regularly), avoid rubbing eyes with unclean hands, remove makeup before sleeping, replace old makeup, avoid sharing personal items like towels",
+        "Treatment": "Warm compress applied to the affected eye for 5-10 minutes several times a day, keeping the eye clean, over-the-counter pain relievers, antibiotic ointments or eye drops for bacterial infection if prescribed, incision and drainage if necessary (performed by a doctor)",
+        "Illness_Type": "Infection "
+    },
+    "Dry Eye Syndrome": {
+        "Description": "A condition where the eyes don't produce enough tears.",
+        "Symptoms": "Dryness, burning, stinging, redness, blurred vision, light sensitivity",
+        "Causes": "Aging, environmental factors, hormonal changes, medications, autoimmune conditions",
+        "Prevention": "Limit screen time, take regular breaks from screens, use a humidifier, avoid smoke or windy environments, wear sunglasses outdoors, stay hydrated",
+        "Treatment": "Artificial tears, cyclosporine drops, punctal plugs, warm compresses, eyelid hygiene, omega-3 supplements",
+        "Illness_Type": "Eye disorder"
+    },
+    "Allergic Conjunctivitis": {
+        "Description": "An allergic reaction causing redness and itching in the eyes.",
+        "Symptoms": "Itchy eyes, redness, swelling, watery discharge",
+        "Causes": "Allergens like pollen, dust mites, mold spores, pet dander",
+        "Prevention": "Avoid allergens, keep windows closed during high pollen seasons, use air purifiers, wear sunglasses outside",
+        "Treatment": "Antihistamines, decongestants, eye drops, steroid eye drops",
+        "Illness_Type": "Eye disorder/allergy"
+    },
+    "Blepharitis": {
+        "Description": "Inflammation of the eyelids, often due to an infection or blockage.",
+        "Symptoms": "Red, swollen eyelids, flaking skin, burning sensation, crusting along the eyelashes",
+        "Causes": "Bacterial infections, clogged oil glands, dandruff, allergies",
+        "Prevention": "Proper eyelid hygiene, avoid touching the eyes, use warm compresses",
+        "Treatment": "Warm compresses, eyelid scrubs, antibiotics, steroid eye drops",
+        "Illness_Type": "Eye disorder"
+    },
+    "Chalazion": {
+        "Description": "A cyst in the eyelid caused by a blocked gland.",
+        "Symptoms": "Painless lump on the eyelid, redness, swelling",
+        "Causes": "Blocked oil glands, poor eyelid hygiene, chronic blepharitis",
+        "Prevention": "Maintain eyelid hygiene, avoid rubbing eyes",
+        "Treatment": "Warm compresses, eyelid hygiene, antibiotic ointments if infected, surgical drainage if necessary",
+        "Illness_Type": "Eye disorder"
+    },
+    "Urinary Tract Infection": {
+        "Description": "A bacterial infection of the urinary tract, common in women.",
+        "Symptoms": "Painful urination, frequent urination, cloudy or foul-smelling urine, pelvic pain",
+        "Causes": "Bacterial infections (E. coli), sexual activity, poor hygiene, urinary catheter use",
+        "Prevention": "Hydration, proper hygiene, urinate after intercourse, avoid holding in urine",
+        "Treatment": "Antibiotics (e.g., trimethoprim, nitrofurantoin), increased fluid intake",
+        "Illness_Type": "Bacterial infection"
+    },
+    "Yeast Infection(Candidiasis)": {
+        "Description": "A yeast infection in the vagina, often causing itching and discharge.",
+        "Symptoms": "Itching, irritation, thick white discharge resembling cottage cheese, redness, swelling, pain during intercourse, burning during urination",
+        "Causes": "Overgrowth of Candida yeast, often triggered by antibiotic use, hormonal changes (e.g., pregnancy, menstrual cycle), weakened immune system, diabetes, or certain medications",
+        "Prevention": "Avoid wearing tight clothing, use breathable underwear, avoid unnecessary antibiotics, maintain a balanced diet",
+        "Treatment": "Over-the-counter antifungal creams (e.g., clotrimazole, miconazole), oral antifungal medication (e.g., fluconazole), maintain hygiene, and follow up with a healthcare provider if symptoms persist",
+        "Illness_Type": "Fungal infection"
+    },
+    "Bladder Infection(Interstitial Cystitis)": {
+        "Description": "Inflammation of the bladder, causing pelvic pain and discomfort.",
+        "Symptoms": "Frequent and urgent need to urinate, pain during urination, pelvic pain, discomfort in the bladder, pressure in the bladder, pain during sexual intercourse",
+        "Causes": "The exact cause is often unknown; potential triggers include bladder irritation, infections, autoimmune disorders, or nerve damage; may be linked to certain foods, beverages, or stress",
+        "Prevention": "Avoid irritants such as caffeine, alcohol, spicy foods, and artificial sweeteners; practice good hygiene, stay hydrated, and empty the bladder regularly; manage stress and seek treatment for recurrent infections",
+        "Treatment": "Antibiotics (e.g., trimethoprim-sulfamethoxazole, fosfomycin), pain relief with NSAIDs",
+        "Illness_Type": "Bacterial infection"
+    },
+    "Bacterial Vaginosis": {
+        "Description": "An imbalance of bacteria in the vagina, causing discharge and odor.",
+        "Symptoms": "Thin, gray or white vaginal discharge, a fishy odor (especially after intercourse), vaginal itching, and burning during urination. Some women may have no symptoms at all.",
+        "Causes": "An imbalance in the normal bacteria found in the vagina, often caused by an overgrowth of certain bacteria, and factors such as multiple sexual partners, douching, and lack of lactobacilli (the good bacteria).",
+        "Prevention": "Practice good hygiene, avoid douching, limit the number of sexual partners, use condoms, and maintain a healthy vaginal flora.",
+        "Treatment": "Antibiotics (e.g., metronidazole, clindamycin)",
+        "Illness_Type": "Bacterial infection"
+    },
+    "Headaches(Tension)": {
+        "Description": "Headaches caused by muscle tension in the head, neck, and shoulders.",
+        "Symptoms": "Dull, aching pain around the forehead or neck, tightness or pressure sensation",
+        "Causes": "Muscle tension in the head, neck, and shoulders, stress, anxiety, fatigue, poor posture, skipping meals, eye strain, and dehydration",
+        "Prevention": "Manage stress through relaxation techniques (e.g., yoga, meditation), maintain good posture, stay hydrated, establish regular sleep patterns, and avoid triggers like skipping meals or excessive screen time",
+        "Treatment": "Over-the-counter pain relievers (e.g., ibuprofen, acetaminophen), stress reduction techniques",
+        "Illness_Type": "Neurological disorder"
+    },
+    "Migraine": {
+        "Description": "Severe headaches often accompanied by nausea and sensitivity to light.",
+        "Symptoms": "Throbbing pain, sensitivity to light and sound, nausea, visual disturbances (aura)",
+        "Causes": "Genetic factors, stress, hormonal changes, certain foods, sensory stimuli",
+        "Prevention": "Avoid known triggers (e.g., certain foods, stress), maintain regular sleep patterns, stay hydrated",
+        "Treatment": "NSAIDs (e.g., ibuprofen), triptans, anti-nausea medications, preventive medications (e.g., beta-blockers, anti-seizure drugs)",
+        "Illness_Type": "Neurological disorder"
+    },
+    "Insomnia(short-term)": {
+        "Description": "Temporary difficulty in falling or staying asleep.",
+        "Symptoms": "Difficulty falling or staying asleep, waking up too early, daytime fatigue",
+        "Causes": "Stress, jet lag, shift work, caffeine or alcohol consumption, medications",
+        "Prevention": "Limit caffeine intake, avoid naps during the day, establish a regular sleep routine, avoid screen time before bed",
+        "Treatment": "Sleep aids (e.g., melatonin), cognitive behavioral therapy for insomnia (CBT-I), relaxation techniques",
+        "Illness_Type": "Sleep disorder"
+    },
+    "Restless Leg Syndrome": {
+        "Description": "A condition causing an uncontrollable urge to move the legs.",
+        "Symptoms": "Uncomfortable sensations in the legs (itching, tingling, crawling), urge to move legs, difficulty sleeping",
+        "Causes": "Genetic factors, low iron levels, pregnancy, kidney failure, medications (e.g., antidepressants, antihistamines)",
+        "Prevention": "Regular exercise, iron supplements, avoid caffeine and alcohol, establish a sleep routine",
+        "Treatment": "Dopamine agonists (e.g., pramipexole), iron supplements, anti-seizure drugs (e.g., gabapentin)",
+        "Illness_Type": "Neurological disorder"
+    },
+    "Chickenpox": {
+        "Description": "A contagious viral illness causing an itchy rash.",
+        "Symptoms": "Itchy red spots or blisters, fever, fatigue, loss of appetite",
+        "Causes": "Varicella-zoster virus",
+        "Prevention": "Vaccination, avoid contact with infected individuals, maintain proper hygiene",
+        "Treatment": "Antihistamines for itching, acetaminophen for fever, antiviral medications (e.g., acyclovir) for severe cases",
+        "Illness_Type": "Viral infection"
+    },
+    "Measels": {
+        "Description": "A viral infection causing a red rash and flu-like symptoms.",
+        "Symptoms": "High fever, cough, runny nose, red eyes, red blotchy rash",
+        "Causes": "Measles virus (paramyxovirus)",
+        "Prevention": "Vaccination (MMR), avoid contact with infected individuals",
+        "Treatment": "Acetaminophen for fever, vitamin A supplements, hydration",
+        "Illness_Type": "Viral infection"
+    },
+    "Mumps": {
+        "Description": "A viral infection affecting the salivary glands, causing swelling.",
+        "Symptoms": "Swollen salivary glands, fever, headache, fatigue, muscle aches",
+        "Causes": "Mumps virus (paramyxovirus)",
+        "Prevention": "Vaccination (MMR), avoid contact with infected individuals",
+        "Treatment": "Acetaminophen or ibuprofen for pain and fever, cold compresses, hydration",
+        "Illness_Type": "Viral infection"
+    },
+    "Rubella": {
+        "Description": "A contagious viral disease causing a red rash.",
+        "Symptoms": "Low-grade fever, rash, swollen lymph nodes, joint pain",
+        "Causes": "Rubella virus (togavirus)",
+        "Prevention": "Vaccination (MMR), avoid contact with infected individuals",
+        "Treatment": "Acetaminophen for fever and pain, rest, hydration",
+        "Illness_Type": "Viral infection"
+    },
+    "Scarlet Fever": {
+        "Description": "A bacterial illness causing a high fever and rash.",
+        "Symptoms": "High fever, sore throat, red rash (feels like sandpaper), strawberry tongue",
+        "Causes": "Bacterial infection (Group A Streptococcus)",
+        "Prevention": "Proper hygiene (e.g., handwashing), avoid contact with infected individuals",
+        "Treatment": "Antibiotics (e.g., penicillin, amoxicillin), acetaminophen for fever",
+        "Illness_Type": "Bacterial infection"
+    },
+    "Hand, Foot, and Mouth Diseases": {
+        "Description": "A viral infection causing fever, sore throat, and a rash on the hands, feet, and mouth.",
+        "Symptoms": "Fever, sore throat, painful sores in the mouth, rash on the hands and feet, loss of appetite, irritability in infants and toddlers",
+        "Causes": "Viral infection, most commonly caused by coxsackievirus A16; spreads through close personal contact, respiratory droplets, and contaminated surfaces",
+        "Prevention": "Wash hands frequently, disinfect surfaces and objects, avoid close contact with infected individuals, and keep children at home when they are ill",
+        "Treatment": "No specific antiviral treatment; management focuses on relieving symptoms; pain relievers (e.g., acetaminophen), mouth rinses for sores, hydration to prevent dehydration, and soft foods to ease eating discomfort",
+        "Illness_Type": "Viral infection"
+    },
+    "Mononucleosis": {
+        "Description": "A viral infection often known as the kissing disease.",
+        "Symptoms": "Fatigue, fever, sore throat, swollen lymph nodes, swollen spleen",
+        "Causes": "Epstein-Barr virus (EBV), spread through saliva",
+        "Prevention": "Avoid sharing utensils or drinks, practice good hygiene",
+        "Treatment": "Rest, hydration, acetaminophen or ibuprofen for pain and fever, corticosteroids in severe cases",
+        "Illness_Type": "Viral infection"
+    },
+    "Chlamydia": {
+        "Description": "A sexually transmitted infection caused by bacteria.",
+        "Symptoms": "Painful urination, abnormal vaginal or penile discharge, pain during intercourse, pelvic pain",
+        "Causes": "Bacterial infection (Chlamydia trachomatis), spread through sexual contact",
+        "Prevention": "Use condoms during intercourse, get regular STD screenings",
+        "Treatment": "Antibiotics (e.g., azithromycin, doxycycline), partner treatment",
+        "Illness_Type": "Bacterial infection"
+    },
+    "Gonorrhea": {
+        "Description": "A bacterial sexually transmitted infection affecting the genitals.",
+        "Symptoms": "Painful urination, abnormal discharge from genitals, pain during intercourse, pelvic pain",
+        "Causes": "Bacterial infection (Neisseria gonorrhoeae), spread through sexual contact",
+        "Prevention": "Use condoms during intercourse, get regular STD screenings",
+        "Treatment": "Antibiotics (e.g., ceftriaxone, azithromycin), partner treatment",
+        "Illness_Type": "Bacterial infection"
+    },
+    "Herpes": {
+        "Description": "A viral sexually transmitted infection causing blisters.",
+        "Symptoms": "Painful blisters or sores around the mouth or genitals, fever, body aches, swollen lymph nodes",
+        "Causes": "Herpes simplex virus (HSV-1 and HSV-2), spread through direct contact with infected areas",
+        "Prevention": "Use condoms during intercourse, avoid direct contact with sores, get regular STD screenings",
+        "Treatment": "Antiviral medications (e.g., acyclovir, valacyclovir), pain relief",
+        "Illness_Type": "Viral infection"
+    },
+    "Human Papillomavirus": {
+        "Description": "A common sexually transmitted infection caused by human papillomavirus.",
+        "Symptoms": "Genital warts, abnormal Pap smear results, possible progression to cervical cancer",
+        "Causes": "Human papillomavirus (HPV), spread through sexual contact",
+        "Prevention": "HPV vaccination, use condoms during intercourse, get regular Pap smears",
+        "Treatment": "No treatment for the virus itself (warts may be treated with topical solutions), vaccination for prevention",
+        "Illness_Type": "Viral infection"
+    },
+    "Iron Deficiency": {
+        "Description": "A condition where there is a lack of iron in the body, causing fatigue.",
+        "Symptoms": "Fatigue, weakness, pale skin, shortness of breath, dizziness",
+        "Causes": "Lack of dietary iron, blood loss, pregnancy, inability to absorb iron",
+        "Prevention": "Eat iron-rich foods (e.g., red meat, spinach), take iron supplements, manage blood loss, avoid tea/coffee with meals",
+        "Treatment": "Iron supplements (ferrous sulfate), dietary changes, vitamin C supplements to aid absorption",
+        "Illness_Type": "Nutritional disorder"
+    },
+    "Varicose Veins": {
+        "Description": "Enlarged veins in the legs, causing pain and discomfort.",
+        "Symptoms": "Bulging, twisted veins (usually in the legs), leg pain, swelling, heaviness",
+        "Causes": "Genetic factors, prolonged standing or sitting, obesity, pregnancy",
+        "Prevention": "Regular exercise, avoid prolonged sitting or standing, elevate legs, wear compression stockings",
+        "Treatment": "Compression stockings, lifestyle changes (exercise, weight loss), laser therapy or sclerotherapy for severe cases",
+        "Illness_Type": "Vascular disorder"
+    },
+    "Thrombophlebitis": {
+        "Description": "Inflammation of a vein, often in the legs, sometimes with a blood clot.",
+        "Symptoms": "Pain, swelling, redness along a vein, warmth in the affected area",
+        "Causes": "Blood clotting in the veins (usually in the legs), prolonged inactivity, injury to the vein, varicose veins",
+        "Prevention": "Avoid prolonged inactivity, stay hydrated, avoid injury to the veins, wear compression stockings",
+        "Treatment": "Blood thinners (anticoagulants), compression stockings, elevation of the legs, lifestyle changes",
+        "Illness_Type": "Vascular disorder"
+    },
+    "Dehydration": {
+        "Description": "A condition where the body loses more fluids than it takes in.",
+        "Symptoms": "Dry mouth, dark urine, dizziness, fatigue, confusion",
+        "Causes": "Lack of fluid intake, excessive sweating, diarrhea or vomiting, heat exposure",
+        "Prevention": "Drink plenty of fluids, avoid excessive heat, replace fluids lost during exercise",
+        "Treatment": "Oral rehydration solutions, intravenous fluids (in severe cases), rest",
+        "Illness_Type": "Metabolic disorder"
+    },
+    "Heat Exhaustion": {
+        "Description": "A heat-related illness causing heavy sweating and weakness.",
+        "Symptoms": "Heavy sweating, weakness, dizziness, headache, nausea, fainting",
+        "Causes": "Prolonged exposure to high temperatures, dehydration, vigorous physical activity",
+        "Prevention": "Stay hydrated, avoid prolonged exposure to high temperatures, take frequent breaks in cool areas",
+        "Treatment": "Rest in a cool place, hydration (oral or IV), cooling measures (e.g., cold compresses)",
+        "Illness_Type": "Environmental condition"
+    },
+    "Motion Sickness": {
+        "Description": "Nausea or vomiting caused by motion.",
+        "Symptoms": "Nausea, dizziness, sweating, vomiting, headache",
+        "Causes": "Movement (e.g., car, boat, or plane travel), conflicting signals between the inner ear and the brain",
+        "Prevention": "Sit in a stable seat (e.g., front of the car, middle of the boat), focus on the horizon, use acupressure bands",
+        "Treatment": "Anti-nausea medications (e.g., dimenhydrinate, meclizine), ginger supplements",
+        "Illness_Type": "Neurological disorder"
+    },
+    "Jet Lag": {
+        "Description": "A temporary sleep disorder following long flights.",
+        "Symptoms": "Fatigue, insomnia, difficulty concentrating, mood changes",
+        "Causes": "Disruption of the body's circadian rhythm due to long-distance travel across multiple time zones",
+        "Prevention": "Gradually adjust to the new time zone before travel, stay hydrated, avoid caffeine and alcohol",
+        "Treatment": "Sleep aids (e.g., melatonin), adjusting sleep schedule, exposure to natural light",
+        "Illness_Type": "Sleep disorder"
+    },
+    "Hyperhidrosis(Excessive Sweating)": {
+        "Description": "Excessive sweating often due to overactive sweat glands.",
+        "Symptoms": "Excessive sweating (especially of the hands, feet, and underarms), damp skin, body odor",
+        "Causes": "Overactive sweat glands, nervous system response to heat, stress, or exercise",
+        "Prevention": "Wear breathable clothing, use antiperspirants, avoid stress triggers",
+        "Treatment": "Antiperspirants, iontophoresis, botulinum toxin injections (Botox), prescription medications (e.g., anticholinergics)",
+        "Illness_Type": "Neurological disorder"
+    },
+    "Tetanus": {
+        "Description": "A serious bacterial infection causing muscle stiffness and spasms.",
+        "Symptoms": "Muscle stiffness and spasms, difficulty swallowing, seizures, fever, high blood pressure",
+        "Causes": "Bacterial infection (Clostridium tetani) through wounds or cuts",
+        "Prevention": "Vaccination (DTaP, Tdap), proper wound care",
+        "Treatment": "Antitoxin (tetanus immune globulin), antibiotics (e.g., metronidazole), wound care",
+        "Illness_Type": "Infection"
+    },
+    "Tuberculosis": {
+        "Description": "A bacterial infection affecting the lungs and respiratory system.",
+        "Symptoms": "Cough (lasting 3+ weeks), chest pain, coughing up blood, fatigue, weight loss, night sweats",
+        "Causes": "Bacterial infection (Mycobacterium tuberculosis), spread through the air (coughing, sneezing)",
+        "Prevention": "Vaccination (BCG), avoid close contact with infected individuals, maintain good hygiene",
+        "Treatment": "Antibiotics like rifampicin, isoniazid, ethambutol, and pyrazinamide",
+        "Illness_Type": "Infection"
+    }
+}
