@@ -1,7 +1,7 @@
 pandas
 scikit-learn
 numpy
-xgboost
+random forest classifier
 matplotlib
 seaborn
 nltk
