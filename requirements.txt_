@@ -1,8 +1,9 @@
 pandas
-scikit-learn
+sklearn
 numpy
 random forest classifier
 matplotlib
 seaborn
 nltk
 joblib
+pickle
